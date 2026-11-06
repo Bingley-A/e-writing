@@ -1,0 +1,11 @@
+name = "e-writing-classroom-api"
+compatibility_date = "2026-11-06"
+pages_build_output_dir = "./public"
+
+[vars]
+FRONTEND_ORIGIN = "https://bingley-a.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "e-writing-classroom"
+database_id = "50221dda-4ca7-47ac-81aa-545e30495831"

@@ -1,0 +1,1003 @@
+[
+  {
+    "word": "然后",
+    "pinyin": "rán hòu",
+    "syllables": [
+      {
+        "char": "然",
+        "pinyinBase": "ran",
+        "tone": 2,
+        "initial": "r",
+        "final": "an"
+      },
+      {
+        "char": "后",
+        "pinyinBase": "hou",
+        "tone": 4,
+        "initial": "h",
+        "final": "ou"
+      }
+    ],
+    "english": "then"
+  },
+  {
+    "word": "紧张",
+    "pinyin": "jǐn zhāng",
+    "syllables": [
+      {
+        "char": "紧",
+        "pinyinBase": "jin",
+        "tone": 3,
+        "initial": "j",
+        "final": "in"
+      },
+      {
+        "char": "张",
+        "pinyinBase": "zhang",
+        "tone": 1,
+        "initial": "zh",
+        "final": "ang"
+      }
+    ],
+    "english": "nervous"
+  },
+  {
+    "word": "暑假",
+    "pinyin": "shǔ jià",
+    "syllables": [
+      {
+        "char": "暑",
+        "pinyinBase": "shu",
+        "tone": 3,
+        "initial": "sh",
+        "final": "u"
+      },
+      {
+        "char": "假",
+        "pinyinBase": "jia",
+        "tone": 4,
+        "initial": "j",
+        "final": "ia"
+      }
+    ],
+    "english": "summer vacation"
+  },
+  {
+    "word": "有意思",
+    "pinyin": "yǒu yì si",
+    "syllables": [
+      {
+        "char": "有",
+        "pinyinBase": "you",
+        "tone": 3,
+        "initial": "y",
+        "final": "ou"
+      },
+      {
+        "char": "意",
+        "pinyinBase": "yi",
+        "tone": 4,
+        "initial": "y",
+        "final": "i"
+      },
+      {
+        "char": "思",
+        "pinyinBase": "si",
+        "tone": 0,
+        "initial": "s",
+        "final": "i"
+      }
+    ],
+    "english": "interesting"
+  },
+  {
+    "word": "旅行",
+    "pinyin": "lǚ xíng",
+    "syllables": [
+      {
+        "char": "旅",
+        "pinyinBase": "lü",
+        "tone": 3,
+        "initial": "l",
+        "final": "ü"
+      },
+      {
+        "char": "行",
+        "pinyinBase": "xing",
+        "tone": 2,
+        "initial": "x",
+        "final": "ing"
+      }
+    ],
+    "english": "to travel"
+  },
+  {
+    "word": "参加",
+    "pinyin": "cān jiā",
+    "syllables": [
+      {
+        "char": "参",
+        "pinyinBase": "can",
+        "tone": 1,
+        "initial": "c",
+        "final": "an"
+      },
+      {
+        "char": "加",
+        "pinyinBase": "jia",
+        "tone": 1,
+        "initial": "j",
+        "final": "ia"
+      }
+    ],
+    "english": "to participate"
+  },
+  {
+    "word": "进步",
+    "pinyin": "jìn bù",
+    "syllables": [
+      {
+        "char": "进",
+        "pinyinBase": "jin",
+        "tone": 4,
+        "initial": "j",
+        "final": "in"
+      },
+      {
+        "char": "步",
+        "pinyinBase": "bu",
+        "tone": 4,
+        "initial": "b",
+        "final": "u"
+      }
+    ],
+    "english": "to make progress"
+  },
+  {
+    "word": "夏令营",
+    "pinyin": "xià lìng yíng",
+    "syllables": [
+      {
+        "char": "夏",
+        "pinyinBase": "xia",
+        "tone": 4,
+        "initial": "x",
+        "final": "ia"
+      },
+      {
+        "char": "令",
+        "pinyinBase": "ling",
+        "tone": 4,
+        "initial": "l",
+        "final": "ing"
+      },
+      {
+        "char": "营",
+        "pinyinBase": "ying",
+        "tone": 2,
+        "initial": "y",
+        "final": "ing"
+      }
+    ],
+    "english": "summer camp"
+  },
+  {
+    "word": "亲眼",
+    "pinyin": "qīn yǎn",
+    "syllables": [
+      {
+        "char": "亲",
+        "pinyinBase": "qin",
+        "tone": 1,
+        "initial": "q",
+        "final": "in"
+      },
+      {
+        "char": "眼",
+        "pinyinBase": "yan",
+        "tone": 3,
+        "initial": "y",
+        "final": "an"
+      }
+    ],
+    "english": "with one's own eyes"
+  },
+  {
+    "word": "真正的",
+    "pinyin": "zhēn zhèng de",
+    "syllables": [
+      {
+        "char": "真",
+        "pinyinBase": "zhen",
+        "tone": 1,
+        "initial": "zh",
+        "final": "en"
+      },
+      {
+        "char": "正",
+        "pinyinBase": "zheng",
+        "tone": 4,
+        "initial": "zh",
+        "final": "eng"
+      },
+      {
+        "char": "的",
+        "pinyinBase": "de",
+        "tone": 0,
+        "initial": "d",
+        "final": "e"
+      }
+    ],
+    "english": "real; true"
+  },
+  {
+    "word": "点菜",
+    "pinyin": "diǎn cài",
+    "syllables": [
+      {
+        "char": "点",
+        "pinyinBase": "dian",
+        "tone": 3,
+        "initial": "d",
+        "final": "ian"
+      },
+      {
+        "char": "菜",
+        "pinyinBase": "cai",
+        "tone": 4,
+        "initial": "c",
+        "final": "ai"
+      }
+    ],
+    "english": "to order food"
+  },
+  {
+    "word": "饭馆",
+    "pinyin": "fàn guǎn",
+    "syllables": [
+      {
+        "char": "饭",
+        "pinyinBase": "fan",
+        "tone": 4,
+        "initial": "f",
+        "final": "an"
+      },
+      {
+        "char": "馆",
+        "pinyinBase": "guan",
+        "tone": 3,
+        "initial": "g",
+        "final": "uan"
+      }
+    ],
+    "english": "restaurant"
+  },
+  {
+    "word": "信心",
+    "pinyin": "xìn xīn",
+    "syllables": [
+      {
+        "char": "信",
+        "pinyinBase": "xin",
+        "tone": 4,
+        "initial": "x",
+        "final": "in"
+      },
+      {
+        "char": "心",
+        "pinyinBase": "xin",
+        "tone": 1,
+        "initial": "x",
+        "final": "in"
+      }
+    ],
+    "english": "confidence"
+  },
+  {
+    "word": "听懂了",
+    "pinyin": "tīng dǒng le",
+    "syllables": [
+      {
+        "char": "听",
+        "pinyinBase": "ting",
+        "tone": 1,
+        "initial": "t",
+        "final": "ing"
+      },
+      {
+        "char": "懂",
+        "pinyinBase": "dong",
+        "tone": 3,
+        "initial": "d",
+        "final": "ong"
+      },
+      {
+        "char": "了",
+        "pinyinBase": "le",
+        "tone": 0,
+        "initial": "l",
+        "final": "e"
+      }
+    ],
+    "english": "understood"
+  },
+  {
+    "word": "越来越",
+    "pinyin": "yuè lái yuè",
+    "syllables": [
+      {
+        "char": "越",
+        "pinyinBase": "yue",
+        "tone": 4,
+        "initial": "y",
+        "final": "üe"
+      },
+      {
+        "char": "来",
+        "pinyinBase": "lai",
+        "tone": 2,
+        "initial": "l",
+        "final": "ai"
+      },
+      {
+        "char": "越",
+        "pinyinBase": "yue",
+        "tone": 4,
+        "initial": "y",
+        "final": "üe"
+      }
+    ],
+    "english": "more and more"
+  },
+  {
+    "word": "照顾",
+    "pinyin": "zhào gù",
+    "syllables": [
+      {
+        "char": "照",
+        "pinyinBase": "zhao",
+        "tone": 4,
+        "initial": "zh",
+        "final": "ao"
+      },
+      {
+        "char": "顾",
+        "pinyinBase": "gu",
+        "tone": 4,
+        "initial": "g",
+        "final": "u"
+      }
+    ],
+    "english": "to take care of"
+  },
+  {
+    "word": "农场",
+    "pinyin": "nóng chǎng",
+    "syllables": [
+      {
+        "char": "农",
+        "pinyinBase": "nong",
+        "tone": 2,
+        "initial": "n",
+        "final": "ong"
+      },
+      {
+        "char": "场",
+        "pinyinBase": "chang",
+        "tone": 3,
+        "initial": "ch",
+        "final": "ang"
+      }
+    ],
+    "english": "farm"
+  },
+  {
+    "word": "合作",
+    "pinyin": "hé zuò",
+    "syllables": [
+      {
+        "char": "合",
+        "pinyinBase": "he",
+        "tone": 2,
+        "initial": "h",
+        "final": "e"
+      },
+      {
+        "char": "作",
+        "pinyinBase": "zuo",
+        "tone": 4,
+        "initial": "z",
+        "final": "uo"
+      }
+    ],
+    "english": "to cooperate"
+  },
+  {
+    "word": "做手工",
+    "pinyin": "zuò shǒu gōng",
+    "syllables": [
+      {
+        "char": "做",
+        "pinyinBase": "zuo",
+        "tone": 4,
+        "initial": "z",
+        "final": "uo"
+      },
+      {
+        "char": "手",
+        "pinyinBase": "shou",
+        "tone": 3,
+        "initial": "sh",
+        "final": "ou"
+      },
+      {
+        "char": "工",
+        "pinyinBase": "gong",
+        "tone": 1,
+        "initial": "g",
+        "final": "ong"
+      }
+    ],
+    "english": "to do handcrafts"
+  },
+  {
+    "word": "聊天",
+    "pinyin": "liáo tiān",
+    "syllables": [
+      {
+        "char": "聊",
+        "pinyinBase": "liao",
+        "tone": 2,
+        "initial": "l",
+        "final": "iao"
+      },
+      {
+        "char": "天",
+        "pinyinBase": "tian",
+        "tone": 1,
+        "initial": "t",
+        "final": "ian"
+      }
+    ],
+    "english": "to chat"
+  },
+  {
+    "word": "练习",
+    "pinyin": "liàn xí",
+    "syllables": [
+      {
+        "char": "练",
+        "pinyinBase": "lian",
+        "tone": 4,
+        "initial": "l",
+        "final": "ian"
+      },
+      {
+        "char": "习",
+        "pinyinBase": "xi",
+        "tone": 2,
+        "initial": "x",
+        "final": "i"
+      }
+    ],
+    "english": "to practice"
+  },
+  {
+    "word": "新学期",
+    "pinyin": "xīn xué qī",
+    "syllables": [
+      {
+        "char": "新",
+        "pinyinBase": "xin",
+        "tone": 1,
+        "initial": "x",
+        "final": "in"
+      },
+      {
+        "char": "学",
+        "pinyinBase": "xue",
+        "tone": 2,
+        "initial": "x",
+        "final": "üe"
+      },
+      {
+        "char": "期",
+        "pinyinBase": "qi",
+        "tone": 1,
+        "initial": "q",
+        "final": "i"
+      }
+    ],
+    "english": "new semester"
+  },
+  {
+    "word": "担心",
+    "pinyin": "dān xīn",
+    "syllables": [
+      {
+        "char": "担",
+        "pinyinBase": "dan",
+        "tone": 1,
+        "initial": "d",
+        "final": "an"
+      },
+      {
+        "char": "心",
+        "pinyinBase": "xin",
+        "tone": 1,
+        "initial": "x",
+        "final": "in"
+      }
+    ],
+    "english": "to worry"
+  },
+  {
+    "word": "分享",
+    "pinyin": "fēn xiǎng",
+    "syllables": [
+      {
+        "char": "分",
+        "pinyinBase": "fen",
+        "tone": 1,
+        "initial": "f",
+        "final": "en"
+      },
+      {
+        "char": "享",
+        "pinyinBase": "xiang",
+        "tone": 3,
+        "initial": "x",
+        "final": "iang"
+      }
+    ],
+    "english": "to share"
+  },
+  {
+    "word": "有趣",
+    "pinyin": "yǒu qù",
+    "syllables": [
+      {
+        "char": "有",
+        "pinyinBase": "you",
+        "tone": 3,
+        "initial": "y",
+        "final": "ou"
+      },
+      {
+        "char": "趣",
+        "pinyinBase": "qu",
+        "tone": 4,
+        "initial": "q",
+        "final": "ü"
+      }
+    ],
+    "english": "interesting"
+  },
+  {
+    "word": "志愿者",
+    "pinyin": "zhì yuàn zhě",
+    "syllables": [
+      {
+        "char": "志",
+        "pinyinBase": "zhi",
+        "tone": 4,
+        "initial": "zh",
+        "final": "i"
+      },
+      {
+        "char": "愿",
+        "pinyinBase": "yuan",
+        "tone": 4,
+        "initial": "y",
+        "final": "üan"
+      },
+      {
+        "char": "者",
+        "pinyinBase": "zhe",
+        "tone": 3,
+        "initial": "zh",
+        "final": "e"
+      }
+    ],
+    "english": "volunteer"
+  },
+  {
+    "word": "故事",
+    "pinyin": "gù shi",
+    "syllables": [
+      {
+        "char": "故",
+        "pinyinBase": "gu",
+        "tone": 4,
+        "initial": "g",
+        "final": "u"
+      },
+      {
+        "char": "事",
+        "pinyinBase": "shi",
+        "tone": 0,
+        "initial": "sh",
+        "final": "i"
+      }
+    ],
+    "english": "story"
+  },
+  {
+    "word": "结束",
+    "pinyin": "jié shù",
+    "syllables": [
+      {
+        "char": "结",
+        "pinyinBase": "jie",
+        "tone": 2,
+        "initial": "j",
+        "final": "ie"
+      },
+      {
+        "char": "束",
+        "pinyinBase": "shu",
+        "tone": 4,
+        "initial": "sh",
+        "final": "u"
+      }
+    ],
+    "english": "to end, finish"
+  },
+  {
+    "word": "细节",
+    "pinyin": "xì jié",
+    "syllables": [
+      {
+        "char": "细",
+        "pinyinBase": "xi",
+        "tone": 4,
+        "initial": "x",
+        "final": "i"
+      },
+      {
+        "char": "节",
+        "pinyinBase": "jie",
+        "tone": 2,
+        "initial": "j",
+        "final": "ie"
+      }
+    ],
+    "english": "detail"
+  },
+  {
+    "word": "笔记",
+    "pinyin": "bǐ jì",
+    "syllables": [
+      {
+        "char": "笔",
+        "pinyinBase": "bi",
+        "tone": 3,
+        "initial": "b",
+        "final": "i"
+      },
+      {
+        "char": "记",
+        "pinyinBase": "ji",
+        "tone": 4,
+        "initial": "j",
+        "final": "i"
+      }
+    ],
+    "english": "notes"
+  },
+  {
+    "word": "应该",
+    "pinyin": "yīng gāi",
+    "syllables": [
+      {
+        "char": "应",
+        "pinyinBase": "ying",
+        "tone": 1,
+        "initial": "y",
+        "final": "ing"
+      },
+      {
+        "char": "该",
+        "pinyinBase": "gai",
+        "tone": 1,
+        "initial": "g",
+        "final": "ai"
+      }
+    ],
+    "english": "should, ought to"
+  },
+  {
+    "word": "国家公园",
+    "pinyin": "guó jiā gōng yuán",
+    "syllables": [
+      {
+        "char": "国",
+        "pinyinBase": "guo",
+        "tone": 2,
+        "initial": "g",
+        "final": "uo"
+      },
+      {
+        "char": "家",
+        "pinyinBase": "jia",
+        "tone": 1,
+        "initial": "j",
+        "final": "ia"
+      },
+      {
+        "char": "公",
+        "pinyinBase": "gong",
+        "tone": 1,
+        "initial": "g",
+        "final": "ong"
+      },
+      {
+        "char": "园",
+        "pinyinBase": "yuan",
+        "tone": 2,
+        "initial": "y",
+        "final": "üan"
+      }
+    ],
+    "english": "national park"
+  },
+  {
+    "word": "地点",
+    "pinyin": "dì diǎn",
+    "syllables": [
+      {
+        "char": "地",
+        "pinyinBase": "di",
+        "tone": 4,
+        "initial": "d",
+        "final": "i"
+      },
+      {
+        "char": "点",
+        "pinyinBase": "dian",
+        "tone": 3,
+        "initial": "d",
+        "final": "ian"
+      }
+    ],
+    "english": "place, location"
+  },
+  {
+    "word": "写作文",
+    "pinyin": "xiě zuò wén",
+    "syllables": [
+      {
+        "char": "写",
+        "pinyinBase": "xie",
+        "tone": 3,
+        "initial": "x",
+        "final": "ie"
+      },
+      {
+        "char": "作",
+        "pinyinBase": "zuo",
+        "tone": 4,
+        "initial": "z",
+        "final": "uo"
+      },
+      {
+        "char": "文",
+        "pinyinBase": "wen",
+        "tone": 2,
+        "initial": "w",
+        "final": "en"
+      }
+    ],
+    "english": "to write a composition"
+  },
+  {
+    "word": "感受",
+    "pinyin": "gǎn shòu",
+    "syllables": [
+      {
+        "char": "感",
+        "pinyinBase": "gan",
+        "tone": 3,
+        "initial": "g",
+        "final": "an"
+      },
+      {
+        "char": "受",
+        "pinyinBase": "shou",
+        "tone": 4,
+        "initial": "sh",
+        "final": "ou"
+      }
+    ],
+    "english": "feeling, to feel"
+  },
+  {
+    "word": "事情",
+    "pinyin": "shì qing",
+    "syllables": [
+      {
+        "char": "事",
+        "pinyinBase": "shi",
+        "tone": 4,
+        "initial": "sh",
+        "final": "i"
+      },
+      {
+        "char": "情",
+        "pinyinBase": "qing",
+        "tone": 0,
+        "initial": "q",
+        "final": "ing"
+      }
+    ],
+    "english": "thing, matter"
+  },
+  {
+    "word": "游记",
+    "pinyin": "yóu jì",
+    "syllables": [
+      {
+        "char": "游",
+        "pinyinBase": "you",
+        "tone": 2,
+        "initial": "y",
+        "final": "ou"
+      },
+      {
+        "char": "记",
+        "pinyinBase": "ji",
+        "tone": 4,
+        "initial": "j",
+        "final": "i"
+      }
+    ],
+    "english": "travel notes"
+  },
+  {
+    "word": "好久不见",
+    "pinyin": "hǎo jiǔ bù jiàn",
+    "syllables": [
+      {
+        "char": "好",
+        "pinyinBase": "hao",
+        "tone": 3,
+        "initial": "h",
+        "final": "ao"
+      },
+      {
+        "char": "久",
+        "pinyinBase": "jiu",
+        "tone": 3,
+        "initial": "j",
+        "final": "iu"
+      },
+      {
+        "char": "不",
+        "pinyinBase": "bu",
+        "tone": 4,
+        "initial": "b",
+        "final": "u"
+      },
+      {
+        "char": "见",
+        "pinyinBase": "jian",
+        "tone": 4,
+        "initial": "j",
+        "final": "ian"
+      }
+    ],
+    "english": "long time no see"
+  },
+  {
+    "word": "重点",
+    "pinyin": "zhòng diǎn",
+    "syllables": [
+      {
+        "char": "重",
+        "pinyinBase": "zhong",
+        "tone": 4,
+        "initial": "zh",
+        "final": "ong"
+      },
+      {
+        "char": "点",
+        "pinyinBase": "dian",
+        "tone": 3,
+        "initial": "d",
+        "final": "ian"
+      }
+    ],
+    "english": "key point"
+  },
+  {
+    "word": "孤立",
+    "pinyin": "gū lì",
+    "syllables": [
+      {
+        "char": "孤",
+        "pinyinBase": "gu",
+        "tone": 1,
+        "initial": "g",
+        "final": "u"
+      },
+      {
+        "char": "立",
+        "pinyinBase": "li",
+        "tone": 4,
+        "initial": "l",
+        "final": "i"
+      }
+    ],
+    "english": "isolated"
+  },
+  {
+    "word": "勇气",
+    "pinyin": "yǒng qì",
+    "syllables": [
+      {
+        "char": "勇",
+        "pinyinBase": "yong",
+        "tone": 3,
+        "initial": "y",
+        "final": "ong"
+      },
+      {
+        "char": "气",
+        "pinyinBase": "qi",
+        "tone": 4,
+        "initial": "q",
+        "final": "i"
+      }
+    ],
+    "english": "courage"
+  },
+  {
+    "word": "欺负",
+    "pinyin": "qī fu",
+    "syllables": [
+      {
+        "char": "欺",
+        "pinyinBase": "qi",
+        "tone": 1,
+        "initial": "q",
+        "final": "i"
+      },
+      {
+        "char": "负",
+        "pinyinBase": "fu",
+        "tone": 0,
+        "initial": "f",
+        "final": "u"
+      }
+    ],
+    "english": "to bully"
+  },
+  {
+    "word": "悄悄话",
+    "pinyin": "qiāo qiāo huà",
+    "syllables": [
+      {
+        "char": "悄",
+        "pinyinBase": "qiao",
+        "tone": 1,
+        "initial": "q",
+        "final": "iao"
+      },
+      {
+        "char": "悄",
+        "pinyinBase": "qiao",
+        "tone": 1,
+        "initial": "q",
+        "final": "iao"
+      },
+      {
+        "char": "话",
+        "pinyinBase": "hua",
+        "tone": 4,
+        "initial": "h",
+        "final": "ua"
+      }
+    ],
+    "english": "whisper"
+  }
+]

@@ -1,0 +1,13 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE IF NOT EXISTS users(id TEXT PRIMARY KEY,nickname TEXT NOT NULL,name_key TEXT NOT NULL UNIQUE,salt TEXT NOT NULL,password_hash TEXT NOT NULL,role TEXT NOT NULL CHECK(role IN ('teacher','student')),created_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS teacher_invites(code_hash TEXT PRIMARY KEY,remaining INTEGER NOT NULL CHECK(remaining>=0),expires_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS sessions(token_hash TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,expires_at INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS sessions_user ON sessions(user_id);
+CREATE TABLE IF NOT EXISTS classes(id TEXT PRIMARY KEY,name TEXT NOT NULL,teacher_id TEXT NOT NULL REFERENCES users(id),join_code TEXT NOT NULL UNIQUE,library TEXT NOT NULL DEFAULT '{}',version INTEGER NOT NULL DEFAULT 1,created_at INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS classes_teacher ON classes(teacher_id);
+CREATE TABLE IF NOT EXISTS members(class_id TEXT NOT NULL REFERENCES classes(id) ON DELETE CASCADE,student_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,PRIMARY KEY(class_id,student_id));
+CREATE INDEX IF NOT EXISTS members_student ON members(student_id);
+CREATE TABLE IF NOT EXISTS attempts(id TEXT NOT NULL,user_id TEXT NOT NULL REFERENCES users(id),class_id TEXT NOT NULL REFERENCES classes(id),started_at INTEGER NOT NULL,updated_at INTEGER NOT NULL,grade TEXT NOT NULL,mode TEXT NOT NULL,total INTEGER NOT NULL,score INTEGER NOT NULL,finished INTEGER NOT NULL,status TEXT NOT NULL,data TEXT NOT NULL,PRIMARY KEY(user_id,id));
+CREATE INDEX IF NOT EXISTS attempts_class ON attempts(class_id,updated_at DESC);
+CREATE INDEX IF NOT EXISTS attempts_student ON attempts(user_id,updated_at DESC);
+CREATE TABLE IF NOT EXISTS rate_limits(key TEXT PRIMARY KEY,window INTEGER NOT NULL,count INTEGER NOT NULL);

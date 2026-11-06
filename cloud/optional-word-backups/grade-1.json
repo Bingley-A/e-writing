@@ -1,0 +1,667 @@
+[
+  {
+    "word": "一二",
+    "pinyin": "yī èr",
+    "syllables": [
+      {
+        "char": "一",
+        "pinyinBase": "yi",
+        "tone": 1,
+        "initial": "y",
+        "final": "i"
+      },
+      {
+        "char": "二",
+        "pinyinBase": "er",
+        "tone": 4,
+        "initial": "无",
+        "final": "er"
+      }
+    ],
+    "english": "one two"
+  },
+  {
+    "word": "三四",
+    "pinyin": "sān sì",
+    "syllables": [
+      {
+        "char": "三",
+        "pinyinBase": "san",
+        "tone": 1,
+        "initial": "s",
+        "final": "an"
+      },
+      {
+        "char": "四",
+        "pinyinBase": "si",
+        "tone": 4,
+        "initial": "s",
+        "final": "i"
+      }
+    ],
+    "english": "three four"
+  },
+  {
+    "word": "五六",
+    "pinyin": "wǔ liù",
+    "syllables": [
+      {
+        "char": "五",
+        "pinyinBase": "wu",
+        "tone": 3,
+        "initial": "w",
+        "final": "u"
+      },
+      {
+        "char": "六",
+        "pinyinBase": "liu",
+        "tone": 4,
+        "initial": "l",
+        "final": "iu"
+      }
+    ],
+    "english": "five six"
+  },
+  {
+    "word": "七八",
+    "pinyin": "qī bā",
+    "syllables": [
+      {
+        "char": "七",
+        "pinyinBase": "qi",
+        "tone": 1,
+        "initial": "q",
+        "final": "i"
+      },
+      {
+        "char": "八",
+        "pinyinBase": "ba",
+        "tone": 1,
+        "initial": "b",
+        "final": "a"
+      }
+    ],
+    "english": "seven eight"
+  },
+  {
+    "word": "九十",
+    "pinyin": "jiǔ shí",
+    "syllables": [
+      {
+        "char": "九",
+        "pinyinBase": "jiu",
+        "tone": 3,
+        "initial": "j",
+        "final": "iu"
+      },
+      {
+        "char": "十",
+        "pinyinBase": "shi",
+        "tone": 2,
+        "initial": "sh",
+        "final": "i"
+      }
+    ],
+    "english": "nine ten"
+  },
+  {
+    "word": "上下",
+    "pinyin": "shàng xià",
+    "syllables": [
+      {
+        "char": "上",
+        "pinyinBase": "shang",
+        "tone": 4,
+        "initial": "sh",
+        "final": "ang"
+      },
+      {
+        "char": "下",
+        "pinyinBase": "xia",
+        "tone": 4,
+        "initial": "x",
+        "final": "ia"
+      }
+    ],
+    "english": "up and down"
+  },
+  {
+    "word": "大小",
+    "pinyin": "dà xiǎo",
+    "syllables": [
+      {
+        "char": "大",
+        "pinyinBase": "da",
+        "tone": 4,
+        "initial": "d",
+        "final": "a"
+      },
+      {
+        "char": "小",
+        "pinyinBase": "xiao",
+        "tone": 3,
+        "initial": "x",
+        "final": "iao"
+      }
+    ],
+    "english": "big and small"
+  },
+  {
+    "word": "不是",
+    "pinyin": "bú shì",
+    "syllables": [
+      {
+        "char": "不",
+        "pinyinBase": "bu",
+        "tone": 2,
+        "initial": "b",
+        "final": "u"
+      },
+      {
+        "char": "是",
+        "pinyinBase": "shi",
+        "tone": 4,
+        "initial": "sh",
+        "final": "i"
+      }
+    ],
+    "english": "no; not"
+  },
+  {
+    "word": "坐下",
+    "pinyin": "zuò xià",
+    "syllables": [
+      {
+        "char": "坐",
+        "pinyinBase": "zuo",
+        "tone": 4,
+        "initial": "z",
+        "final": "uo"
+      },
+      {
+        "char": "下",
+        "pinyinBase": "xia",
+        "tone": 4,
+        "initial": "x",
+        "final": "ia"
+      }
+    ],
+    "english": "sit down"
+  },
+  {
+    "word": "在",
+    "pinyin": "zài",
+    "syllables": [
+      {
+        "char": "在",
+        "pinyinBase": "zai",
+        "tone": 4,
+        "initial": "z",
+        "final": "ai"
+      }
+    ],
+    "english": "be; at; in"
+  },
+  {
+    "word": "山里",
+    "pinyin": "shān lǐ",
+    "syllables": [
+      {
+        "char": "山",
+        "pinyinBase": "shan",
+        "tone": 1,
+        "initial": "sh",
+        "final": "an"
+      },
+      {
+        "char": "里",
+        "pinyinBase": "li",
+        "tone": 3,
+        "initial": "l",
+        "final": "i"
+      }
+    ],
+    "english": "in the mountain"
+  },
+  {
+    "word": "水火",
+    "pinyin": "shuǐ huǒ",
+    "syllables": [
+      {
+        "char": "水",
+        "pinyinBase": "shui",
+        "tone": 3,
+        "initial": "sh",
+        "final": "ui"
+      },
+      {
+        "char": "火",
+        "pinyinBase": "huo",
+        "tone": 3,
+        "initial": "h",
+        "final": "uo"
+      }
+    ],
+    "english": "water and fire"
+  },
+  {
+    "word": "人",
+    "pinyin": "rén",
+    "syllables": [
+      {
+        "char": "人",
+        "pinyinBase": "ren",
+        "tone": 2,
+        "initial": "r",
+        "final": "en"
+      }
+    ],
+    "english": "person; people"
+  },
+  {
+    "word": "小马",
+    "pinyin": "xiǎo mǎ",
+    "syllables": [
+      {
+        "char": "小",
+        "pinyinBase": "xiao",
+        "tone": 3,
+        "initial": "x",
+        "final": "iao"
+      },
+      {
+        "char": "马",
+        "pinyinBase": "ma",
+        "tone": 3,
+        "initial": "m",
+        "final": "a"
+      }
+    ],
+    "english": "pony; little horse"
+  },
+  {
+    "word": "小牛",
+    "pinyin": "xiǎo niú",
+    "syllables": [
+      {
+        "char": "小",
+        "pinyinBase": "xiao",
+        "tone": 3,
+        "initial": "x",
+        "final": "iao"
+      },
+      {
+        "char": "牛",
+        "pinyinBase": "niu",
+        "tone": 2,
+        "initial": "n",
+        "final": "iu"
+      }
+    ],
+    "english": "calf; little cow"
+  },
+  {
+    "word": "小羊",
+    "pinyin": "xiǎo yáng",
+    "syllables": [
+      {
+        "char": "小",
+        "pinyinBase": "xiao",
+        "tone": 3,
+        "initial": "x",
+        "final": "iao"
+      },
+      {
+        "char": "羊",
+        "pinyinBase": "yang",
+        "tone": 2,
+        "initial": "y",
+        "final": "ang"
+      }
+    ],
+    "english": "lamb; little sheep"
+  },
+  {
+    "word": "小鸟",
+    "pinyin": "xiǎo niǎo",
+    "syllables": [
+      {
+        "char": "小",
+        "pinyinBase": "xiao",
+        "tone": 3,
+        "initial": "x",
+        "final": "iao"
+      },
+      {
+        "char": "鸟",
+        "pinyinBase": "niao",
+        "tone": 3,
+        "initial": "n",
+        "final": "iao"
+      }
+    ],
+    "english": "bird; little bird"
+  },
+  {
+    "word": "虫子",
+    "pinyin": "chóng zi",
+    "syllables": [
+      {
+        "char": "虫",
+        "pinyinBase": "chong",
+        "tone": 2,
+        "initial": "ch",
+        "final": "ong"
+      },
+      {
+        "char": "子",
+        "pinyinBase": "zi",
+        "tone": 0,
+        "initial": "z",
+        "final": "i"
+      }
+    ],
+    "english": "insect; worm"
+  },
+  {
+    "word": "男生",
+    "pinyin": "nán shēng",
+    "syllables": [
+      {
+        "char": "男",
+        "pinyinBase": "nan",
+        "tone": 2,
+        "initial": "n",
+        "final": "an"
+      },
+      {
+        "char": "生",
+        "pinyinBase": "sheng",
+        "tone": 1,
+        "initial": "sh",
+        "final": "eng"
+      }
+    ],
+    "english": "boy; schoolboy"
+  },
+  {
+    "word": "女生",
+    "pinyin": "nǚ shēng",
+    "syllables": [
+      {
+        "char": "女",
+        "pinyinBase": "nü",
+        "tone": 3,
+        "initial": "n",
+        "final": "ü"
+      },
+      {
+        "char": "生",
+        "pinyinBase": "sheng",
+        "tone": 1,
+        "initial": "sh",
+        "final": "eng"
+      }
+    ],
+    "english": "girl; schoolgirl"
+  },
+  {
+    "word": "下雨",
+    "pinyin": "xià yǔ",
+    "syllables": [
+      {
+        "char": "下",
+        "pinyinBase": "xia",
+        "tone": 4,
+        "initial": "x",
+        "final": "ia"
+      },
+      {
+        "char": "雨",
+        "pinyinBase": "yu",
+        "tone": 3,
+        "initial": "y",
+        "final": "ü"
+      }
+    ],
+    "english": "rain; raining"
+  },
+  {
+    "word": "土",
+    "pinyin": "tǔ",
+    "syllables": [
+      {
+        "char": "土",
+        "pinyinBase": "tu",
+        "tone": 3,
+        "initial": "t",
+        "final": "u"
+      }
+    ],
+    "english": "soil; earth; land"
+  },
+  {
+    "word": "月亮",
+    "pinyin": "yuè liang",
+    "syllables": [
+      {
+        "char": "月",
+        "pinyinBase": "yue",
+        "tone": 4,
+        "initial": "y",
+        "final": "üe"
+      },
+      {
+        "char": "亮",
+        "pinyinBase": "liang",
+        "tone": 0,
+        "initial": "l",
+        "final": "iang"
+      }
+    ],
+    "english": "moon"
+  },
+  {
+    "word": "今天",
+    "pinyin": "jīn tiān",
+    "syllables": [
+      {
+        "char": "今",
+        "pinyinBase": "jin",
+        "tone": 1,
+        "initial": "j",
+        "final": "in"
+      },
+      {
+        "char": "天",
+        "pinyinBase": "tian",
+        "tone": 1,
+        "initial": "t",
+        "final": "ian"
+      }
+    ],
+    "english": "today"
+  },
+  {
+    "word": "昨天",
+    "pinyin": "zuó tiān",
+    "syllables": [
+      {
+        "char": "昨",
+        "pinyinBase": "zuo",
+        "tone": 2,
+        "initial": "z",
+        "final": "uo"
+      },
+      {
+        "char": "天",
+        "pinyinBase": "tian",
+        "tone": 1,
+        "initial": "t",
+        "final": "ian"
+      }
+    ],
+    "english": "yesterday"
+  },
+  {
+    "word": "明天",
+    "pinyin": "míng tiān",
+    "syllables": [
+      {
+        "char": "明",
+        "pinyinBase": "ming",
+        "tone": 2,
+        "initial": "m",
+        "final": "ing"
+      },
+      {
+        "char": "天",
+        "pinyinBase": "tian",
+        "tone": 1,
+        "initial": "t",
+        "final": "ian"
+      }
+    ],
+    "english": "tomorrow"
+  },
+  {
+    "word": "生日",
+    "pinyin": "shēng rì",
+    "syllables": [
+      {
+        "char": "生",
+        "pinyinBase": "sheng",
+        "tone": 1,
+        "initial": "sh",
+        "final": "eng"
+      },
+      {
+        "char": "日",
+        "pinyinBase": "ri",
+        "tone": 4,
+        "initial": "r",
+        "final": "i"
+      }
+    ],
+    "english": "birthday"
+  },
+  {
+    "word": "走来走去",
+    "pinyin": "zǒu lái zǒu qù",
+    "syllables": [
+      {
+        "char": "走",
+        "pinyinBase": "zou",
+        "tone": 3,
+        "initial": "z",
+        "final": "ou"
+      },
+      {
+        "char": "来",
+        "pinyinBase": "lai",
+        "tone": 2,
+        "initial": "l",
+        "final": "ai"
+      },
+      {
+        "char": "走",
+        "pinyinBase": "zou",
+        "tone": 3,
+        "initial": "z",
+        "final": "ou"
+      },
+      {
+        "char": "去",
+        "pinyinBase": "qu",
+        "tone": 4,
+        "initial": "q",
+        "final": "ü"
+      }
+    ],
+    "english": "walk back and forth"
+  },
+  {
+    "word": "田里",
+    "pinyin": "tián lǐ",
+    "syllables": [
+      {
+        "char": "田",
+        "pinyinBase": "tian",
+        "tone": 2,
+        "initial": "t",
+        "final": "ian"
+      },
+      {
+        "char": "里",
+        "pinyinBase": "li",
+        "tone": 3,
+        "initial": "l",
+        "final": "i"
+      }
+    ],
+    "english": "in the field"
+  },
+  {
+    "word": "星期",
+    "pinyin": "xīng qī",
+    "syllables": [
+      {
+        "char": "星",
+        "pinyinBase": "xing",
+        "tone": 1,
+        "initial": "x",
+        "final": "ing"
+      },
+      {
+        "char": "期",
+        "pinyinBase": "qi",
+        "tone": 1,
+        "initial": "q",
+        "final": "i"
+      }
+    ],
+    "english": "week"
+  },
+  {
+    "word": "几天",
+    "pinyin": "jǐ tiān",
+    "syllables": [
+      {
+        "char": "几",
+        "pinyinBase": "ji",
+        "tone": 3,
+        "initial": "j",
+        "final": "i"
+      },
+      {
+        "char": "天",
+        "pinyinBase": "tian",
+        "tone": 1,
+        "initial": "t",
+        "final": "ian"
+      }
+    ],
+    "english": "a few days"
+  },
+  {
+    "word": "几年",
+    "pinyin": "jǐ nián",
+    "syllables": [
+      {
+        "char": "几",
+        "pinyinBase": "ji",
+        "tone": 3,
+        "initial": "j",
+        "final": "i"
+      },
+      {
+        "char": "年",
+        "pinyinBase": "nian",
+        "tone": 2,
+        "initial": "n",
+        "final": "ian"
+      }
+    ],
+    "english": "a few years"
+  }
+]

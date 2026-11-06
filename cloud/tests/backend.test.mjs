@@ -1,0 +1,54 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {DatabaseSync} from 'node:sqlite';
+import {readFileSync} from 'node:fs';
+import worker,{digest,validateLibrary} from '../worker.mjs';
+import {DB} from './db.mjs';
+const sample={word:'阿姨',pinyin:'ā yí',english:'aunt',syllables:[{char:'阿',pinyinBase:'a',tone:1,initial:'',final:'a'},{char:'姨',pinyinBase:'yi',tone:2,initial:'y',final:'i'}]};
+test('Cloud auth, one-use invitation, tenants, library versioning and records',async()=>{
+ const env={DB:new DB(),FRONTEND_ORIGIN:'https://bingley-a.github.io'};
+ let ip=0;
+ async function call(path,method='GET',body,token,origin=env.FRONTEND_ORIGIN){
+  const response=await worker.fetch(new Request('https://api.example'+path,{method,headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':'ip-'+ip++,...(token?{Authorization:'Bearer '+token}:{})},...(body===undefined?{}:{body:JSON.stringify(body)})}),env);
+  return {status:response.status,...await response.json()};
+ }
+ const invite='TEACHER-test-one-use';await env.DB.prepare('INSERT INTO teacher_invites VALUES(?,1,?)').bind(await digest(invite),Date.now()+86400000).run();
+ const teacher=await call('/auth/register','POST',{nickname:'老师甲',password:'password123',teacherInvite:invite});assert.equal(teacher.status,200);assert.equal(teacher.user.role,'teacher');
+ assert.equal((await call('/auth/register','POST',{nickname:'冒用者',password:'password123',teacherInvite:invite})).status,400);
+ const other=await call('/auth/register','POST',{nickname:'其他学生',password:'password123',role:'teacher'});assert.equal(other.user.role,'student');
+ const student=await call('/auth/register','POST',{nickname:'学生甲',password:'password123'});assert.equal(student.user.role,'student');
+ assert.equal((await call('/auth/login','POST',{nickname:'学生甲',password:'badpassword'})).status,401);
+ assert.equal((await call('/auth/login','POST',{nickname:'学生甲',password:'password123'})).status,200);
+ assert.equal((await call('/auth/me')).status,401);
+ const created=await call('/classes','POST',{name:'五年级一班',library:{1:[],2:[],3:[],4:[],5:[sample]}},teacher.token);assert.equal(created.status,201);const c=created.class;
+ assert.equal((await call('/classes','POST',{name:'私建班级',library:{}},student.token)).status,403);
+ assert.equal((await call('/classes/'+c.id+'/library','GET',undefined,student.token)).status,403);
+ assert.equal((await call('/classes/join','POST',{code:c.joinCode},student.token)).status,200);
+ assert.equal((await call('/classes/'+c.id+'/library','GET',undefined,student.token)).library[5][0].word,'阿姨');
+ assert.equal((await call('/classes/'+c.id+'/library','PUT',{version:1,library:{}},student.token)).status,403);
+ const updated={1:[],2:[],3:[],4:[],5:[{...sample,english:'updated aunt'}]};
+ assert.equal((await call('/classes/'+c.id+'/library','PUT',{version:1,library:updated},teacher.token)).version,2);
+ assert.equal((await call('/classes/'+c.id+'/library','PUT',{version:1,library:{}},teacher.token)).status,409);
+ assert.equal((await call('/classes/'+c.id+'/library?version=2','GET',undefined,student.token)).unchanged,true);
+ assert.equal((await call('/classes/'+c.id+'/library','GET',undefined,other.token)).status,403);
+ assert.equal((await call('/classes/'+c.id+'/records','GET',undefined,student.token)).status,403);
+ const record={id:'test-round',classId:c.id,startedAt:Date.now(),grade:'5年级',mode:'full',total:1,elapsedMs:300,status:'已完成',words:[{index:0,word:'阿姨',pinyin:'ā yí',correct:true}],score:999};
+ assert.equal((await call('/records','PUT',record,student.token)).status,200);
+ const rows=await call('/classes/'+c.id+'/records','GET',undefined,teacher.token);assert.equal(rows.records.length,1);assert.equal(rows.records[0].score,1);assert.equal(rows.records[0].nickname,'学生甲');
+ assert.equal((await call('/records','GET',undefined,other.token)).records.length,0);
+ assert.equal((await call('/records','PUT',record,other.token)).status,403);
+ assert.equal((await call('/records','PUT',{...record,status:'未完成',words:[]},student.token)).ignored,true);
+ assert.equal((await call('/classes/'+c.id+'/members','GET',undefined,teacher.token)).members.length,1);
+ const secondInvite='TEACHER-two';await env.DB.prepare('INSERT INTO teacher_invites VALUES(?,1,?)').bind(await digest(secondInvite),Date.now()+100000).run();
+ const teacher2=await call('/auth/register','POST',{nickname:'老师乙',password:'password123',teacherInvite:secondInvite});assert.equal((await call('/classes/'+c.id+'/records','GET',undefined,teacher2.token)).status,403);
+ assert.equal((await call('/classes/'+c.id+'/library','PUT',{version:2,library:{}},teacher2.token)).status,403);
+ assert.equal((await call('/auth/me','GET',undefined,student.token,'https://evil.example')).status,403);
+ const databaseUser=env.DB.db.prepare('SELECT * FROM users WHERE id=?').get(student.user.id);assert.notEqual(databaseUser.password_hash,'password123');
+ await call('/auth/logout','POST',{},student.token);assert.equal((await call('/auth/me','GET',undefined,student.token)).status,401);
+ env.DB.db.close();
+});
+test('Server rejects malformed libraries and accepts explicit empty grades',()=>{
+ assert.throws(()=>validateLibrary({5:[{...sample,syllables:[]}]}));
+ assert.throws(()=>validateLibrary({5:[sample,sample]}));
+ assert.throws(()=>validateLibrary({6:[]}));assert.deepEqual(validateLibrary({5:[]}),{5:[]});
+});
